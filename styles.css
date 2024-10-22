@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: black;
+    /* Jigarang rang */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('./photo_2023-06-20_12-07-53.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.cta-button {
+    background: #FFD700;
+    /* To'q sariq rang */
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px;
+    border: 1px solid black;
+    background: #f9f9f9;
+}
+
+.model {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    /* Jigarang rang */
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: black;
+    /* Jigarang rang */
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+form button {
+    background: black;
+    /* Jigarang rang */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: black;
+    /* To'q jigarang rang */
+}
+
+.model>img {
+    border-radius: 10px;
+    display: flex;
+    margin-left: 890px;
+    margin-top: 5px;
+}
+
+.h3 {
+    margin-top: -170px;
+}
+
+.model>img {
+    border-radius: 10px;
+    display: flex;
+    margin-left: 920px;
+    margin-top: 5px;
+}
+
+.h4 {
+    margin-top: -200px;
+}
+
+.model>img {
+    border-radius: 10px;
+    display: flex;
+    margin-left: 920px;
+    margin-top: 5px;
+}
+
+.h5 {
+    margin-top: -200px;
+}
+
+.model>img {
+    border-radius: 10px;
+    display: flex;
+    margin-left: 990px;
+    margin-top: 5px;
+}
+
+.h6 {
+    margin-top: -200px;
+}
+
+.model>img {
+    border-radius: 10px;
+    display: flex;
+    margin-left: 990px;
+    margin-top: 5px;
+}
+
+.h7 {
+    margin-top: -200px;
+}
